@@ -10,7 +10,8 @@ Vue.prototype.$axios = axios;
 // 字体图标
 
 const service = axios.create({
-	baseURL: Vue.prototype.BASE_URL + ":9999",
+	baseURL: Vue.prototype.BASE_URL + ":9999/api",
+	// baseURL: Vue.prototype.BASE_URL + ":8282/api",
 	timeout: 50000
 });
 
